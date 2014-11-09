@@ -1,0 +1,337 @@
+html {
+    color: #111111;
+}
+body {
+    margin-top: 0;
+}
+body, td, th {
+    font: 12px/1.62 Helvetica,Arial,sans-serif;
+}
+
+
+body, div, dl, dt, dd, ul, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+
+a:link, a:visited, a:focus {
+    color: #333333;
+}
+a:link {
+    color: #333333;
+    text-decoration: none;
+}
+a:hover {
+    color: #FF3300;
+    text-decoration: underline;
+}
+a {
+    cursor: pointer;
+} 
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul, ol {
+    list-style: none outside none;
+}
+ 
+form {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+
+fieldset {
+    border: 1px solid #DDDDDD;
+    margin-bottom: 15px;
+    padding: 0 10px;
+}
+fieldset, img {
+    border: 0 none;
+}
+
+
+fieldset legend {
+    color: #666666;
+    padding: 0 5px;
+}
+legend {
+    color: #000000;
+}
+
+
+label {
+    font-family: Tahoma;
+    vertical-align: middle;
+}
+
+input {
+    font-size: 12px;
+}
+input {
+    margin-right: 3px;
+    vertical-align: middle;
+}
+
+input, button, textarea, select, optgroup, option {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+
+.global-nav {
+    background-color: #545652;
+    color: #D5D5D5;
+    height: 28px;
+    min-width: 950px;
+}
+
+
+.global-nav .top-nav-info {
+    float: right;
+    line-height: 28px;
+    margin: 0 12px 0 0;
+}
+
+
+.global-nav .top-nav-info a {
+    display: inline-block;
+    height: 28px;
+    margin: 0;
+    padding: 0 12px;
+}
+.global-nav a:active, .global-nav a:hover, .global-nav a:link, .global-nav a:visited {
+    color: #D5D5D5;
+}
+.global-nav .global-nav-items {
+    font-size: 0;
+}
+
+.global-nav .global-nav-items li {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 28px;
+    vertical-align: baseline;
+}
+
+.global-nav .global-nav-items a {
+    display: inline-block;
+    height: 28px;
+    padding: 0 12px;
+}
+
+#db-nav-book {
+    background: none repeat scroll 0 0 #F6F6F1;
+}
+.nav {
+    margin-bottom: 10px;
+    min-width: 950px;
+    overflow: hidden;
+    width: 100%;
+}
+
+#db-nav-book .nav-wrap {
+    border-color: #E9E9E2;
+}
+
+
+.nav .nav-wrap {
+    border-bottom: 1px solid #E5EBE4;
+}
+
+.nav .nav-primary {
+    overflow: hidden;
+    padding: 10px 0 5px;
+    position: relative;
+}
+
+.nav .nav-logo {
+    background: url("java-logo.png") no-repeat scroll 0 12px transparent;
+    float: left;
+    height: 56px;
+    margin: 0 13px 0 0;
+    width: 145px;
+}
+
+
+
+#db-nav-book a:link, #db-nav-book a:visited {
+    color: #614E3C;
+}
+.nav .nav-logo a {
+    display: block;
+    height: 100%;
+    line-height: 100em;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+.nav-search {
+    overflow: hidden;
+    padding: 10px 0 15px;
+    position: relative;
+}
+
+
+.nav-search legend {
+    display: none;
+}
+
+
+.nav-search fieldset {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    position: static;
+}
+
+
+
+.nav-search label {
+    color: #BBBBBB;
+    cursor: text;
+    left: 12px;
+    line-height: 30px;
+    position: absolute;
+    top: 10px;
+    width: auto;
+}
+
+
+#db-nav-book .nav-search .inp {
+    background-image: url("nav_bg_a1.png");
+}
+.nav-search .inp {
+    background: url("nav_bg_a1.png") no-repeat scroll 0 0 transparent;
+    cursor: text;
+    float: left;
+    height: 34px;
+    text-align: center;
+    width: 470px;
+}
+
+
+.nav-search .inp input {
+    background: none repeat scroll 0 0 #FFFFFF;
+    height: 30px;
+    margin: 0;
+    outline: 0 none;
+    padding-left: 6px;
+    text-align: left;
+    width: 96%;
+}
+.nav-search input {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+}
+
+
+.nav-search .inp-btn {
+    height: 34px;
+    left: -1px;
+    overflow: hidden;
+    position: relative;
+    width: 37px;
+}
+
+
+
+#db-nav-book .nav-search .inp-btn input {
+    background-image: url("nav_bg_a1.png");
+}
+.nav-search .inp-btn input {
+    background: url("nav_bg_a1.png") no-repeat scroll 0 -40px transparent;
+    color: transparent;
+    cursor: pointer;
+    font-size: 0;
+    height: 100%;
+    overflow: hidden;
+    padding: 35px 0 0;
+    width: 100%;
+}
+
+
+
+.nav-secondary:after {
+    clear: both;
+    display: block;
+}
+.nav .nav-primary, .nav .nav-secondary {
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 0;
+    width: 950px;
+}
+.nav-secondary {
+    width: 100%;
+}
+
+
+#db-nav-book .nav-secondary .nav-items {
+}
+.nav-secondary .nav-items {
+    float: none;
+    font-size: 13px;
+}
+.nav-secondary ul {
+    margin: 9px 0;
+}
+
+
+ 
+.nav-secondary li {
+    display: inline;
+    margin-right: 30px;
+}
+
+ 
+.nav-secondary .book-cart {
+    background-image: url("star_fav_empty.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 26px;
+    padding-top: 0px;
+    position: relative;
+}
+.icon-new {
+    background-image: url("icon-new.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 7px;
+    margin-top: 2px;
+    vertical-align: top;
+    width: 17px;
+}
+ 
+
+
+#wrapper {
+    margin: 0 auto;
+    width: 950px;
+}
+
+#content {
+    min-height: 420px;
+}
+ 
+#content .model span{
+     display: inline-block;
+    height: 60px;
+    line-height: 30px;
+    width: 310px;
+}
+#content  .model span a{
+     font: 14px/100%  arial,宋体;
+}
+#content .model {
+    background: none repeat scroll 0 0 #F7F7F7;
+}

@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin:0px; padding:0px; font-size:12px; font-family:"微软雅黑"; color:#555; padding-left:180px; background:#282E37;}
+a{color:#555;}
+img{border:0px;}
+a:link {text-decoration: none;}
+a:visited{text-decoration: none;}
+a:hover{text-decoration: underline;}
+ul, p, dl, dt, dd{padding:0px; margin:0px;}
+li{list-style-position:outside; list-style-type:none;}
+h1, h2, h3, h4, h5{font-size:14px; padding:0px; margin:0px;}
+h1{font-size:16px;}
+h5{font-size:12px;}
+.fl{float:left;}
+.fr{float:right;}
+
+.clear_f{clear:both; height:0px; padding:0px; margin:0px; display:block; _display:inherit;}
+.h10{height:10px; overflow:hidden; clear:both;}
+
+.wal{width:980px; margin:0px auto; overflow:hidden;}
+
+.pageNum{height:100px; padding:30px 30px 0 30px;}
+.pageNum .fr{padding-top:15px;}
+.pageNum .fr a{display:block; float:left; background:url(../images/pagenumbg1.gif) top repeat-x; height:23px; line-height:23px; padding:0 8px; border:#C0C0C0 solid 1px; margin:0 2px; font-family:Verdana, Geneva, sans-serif; text-decoration:none;}
+.pageNum .fr a:hover, .pageNum .fr .a_now{background:url(../images/pagenumbg2.gif) top repeat-x; border:#A20D00 solid 1px; color:#FFF; text-decoration:none;}
+
+.logo{position:fixed; z-index:100; top:0px; left:0px; _position:absolute; _top:expression(documentElement.scrollTop);}
+
