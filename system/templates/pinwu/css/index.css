@@ -20,7 +20,7 @@
 .foot1 .contentBg{position:absolute; z-index:1; left:0px; top:0px; background:#565f68; width:180px; height:180px; overflow:hidden;}
 .foot1 li a{display:block;height:180px; overflow:hidden;}
 .foot2{padding:9px; line-height:30px; color:#999; font-family:Verdana, Geneva, sans-serif;font-size: 10px;}
-.foot3{line-height:1.8em; padding:10px 0 33px 0; padding-right:180px; color:#505762;font-family:Verdana, Geneva, sans-serif;font-size: 10px;}
+.foot3{line-height:1.8em; padding:10px 0 33px 0; padding-right:180px; color:#505762;font-family:Verdana, Geneva, sans-serif;font-size: 12px;}
 .foot3 a{color:#505762}
 
 .liBox1{float:left; width:360px; height:360px; overflow:hidden; position:relative;}
@@ -55,7 +55,7 @@
 .indexBrand2{background:#6079b0; position:relative;}
 .indexBrand2 .divContent{position:absolute; z-index:10; left:0px; top:0px; width:360px; height:90px;}
 .indexBrand2 .contentBg{position:absolute; z-index:1; left:0px; top:0px; background:#45609C; width:360px; height:90px; overflow:hidden;}
-.liBox3{font-size:10px;}
+.liBox3{font-size:12px;}
 .liBox3 a{display:block; text-decoration:none; height:90px;}
 .liBox3 a:hover{text-decoration:none;}
 .liBox3 .fr{width:240px; padding:20px 15px 0 15px; overflow:hidden; text-align:center; color:#FFF;}
