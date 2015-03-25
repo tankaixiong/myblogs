@@ -7,7 +7,7 @@
 .nav a:hover, .nav .a_now{color:#FFF; text-decoration:none;}
 .nav li{padding-left:52px; height:24px;}
 
-.topRight{width:165px; padding-right:15px; height:180px; background:#40464E; overflow:hidden; text-align:right;}
+.topRight{width:165px; padding-right:15px; height:180px; background:#40464E; overflow:hidden; text-align:right;margin-right: 178px;}
 .topRight .tel{padding-top:20px; height:60px;}
 .topRight .w1{padding-top:0px;height:20px; }
 .topRight .weibo{padding-top:14px;height:20px; }
@@ -20,7 +20,7 @@
 .foot1 .contentBg{position:absolute; z-index:1; left:0px; top:0px; background:#565f68; width:180px; height:180px; overflow:hidden;}
 .foot1 li a{display:block;height:180px; overflow:hidden;}
 .foot2{padding:9px; line-height:30px; color:#999; font-family:Verdana, Geneva, sans-serif;font-size: 10px;}
-.foot3{line-height:1.8em; padding:10px 0 33px 0; padding-right:180px; color:#505762;font-family:Verdana, Geneva, sans-serif;font-size: 12px;}
+.foot3{line-height:1.8em; padding:10px 0 33px 0; padding-right:180px; color:#505762;font-family:Verdana, Geneva, sans-serif;font-size: 14px;}
 .foot3 a{color:#505762}
 
 .liBox1{float:left; width:360px; height:360px; overflow:hidden; position:relative;}
